@@ -5,3 +5,5 @@ dist-ssr
 *.local
 # Generated API Client
 /src/api-client
+# Local Netlify folder
+.netlify
