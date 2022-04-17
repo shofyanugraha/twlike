@@ -5,12 +5,12 @@
     w:bg="blue-400 hover:blue-500 dark:blue-500 dark:hover:blue-600"
     w:text="sm white"
     w:font="mono light"
-    w:w="40px"
-    w:h="40px"
+    w:w="60px"
+    w:h="60px"
     w:align="items-center"
     w:justify="center"
     w:border="2 rounded-1/2 blue-200"
-    w:position="fixed bottom-2 right-2"
+    w:position="fixed bottom-5 right-5"
     @click="openModal"
   >
     <FontAwesomeIcon icon="plus" />
@@ -43,18 +43,7 @@
             leave-to="opacity-0 scale-95"
           >
             <div
-              class="
-                inline-block
-                w-full
-                max-w-md
-                p-4
-                overflow-hidden
-                text-left
-                transition-all
-                transform
-                bg-white
-                shadow-xl
-              "
+              class="inline-block w-full max-w-md p-4 overflow-hidden text-left transition-all transform bg-white shadow-xl"
             >
               <form @submit="onSubmit">
                 <div w:m="b-5">
@@ -80,7 +69,7 @@
                     w:align="items-center"
                     w:justify="center"
                     w:border="2 rounded blue-200"
-                    :disabled="!meta.valid || isSubmitting"
+                    :disabled="isSubmitting"
                   >
                     Tweet
                   </button>

@@ -24,7 +24,7 @@
         w:align="items-center"
         w:justify="center"
         w:border="2 rounded blue-200"
-        :disabled="!meta.valid || isSubmitting"
+        :disabled="isSubmitting"
       >
         Tweet
       </button>
