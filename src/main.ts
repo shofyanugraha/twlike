@@ -32,5 +32,3 @@ app.provide('enable-route-transitions', true)
 app.config.globalProperties.$dayjs = dayjs
 app.component('FontAwesomeIcon', FontAwesomeIcon)
 app.mount('#app')
-
-import 'bootstrap/dist/js/bootstrap.js'
