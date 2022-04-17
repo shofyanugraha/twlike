@@ -1,0 +1,3 @@
+<template>
+  <RouterViewTransition></RouterViewTransition>
+</template>
