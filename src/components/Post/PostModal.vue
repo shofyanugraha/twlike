@@ -53,7 +53,7 @@
                     w:w="full"
                     w:border="1 "
                     w:p="x-4 y-2"
-                    :class="contentError ? 'is-invalid' : ''"
+                    :class="contentError ? 'border-red-500' : ''"
                     rows="3"
                     placeholder="What's happening"
                   ></textarea>
